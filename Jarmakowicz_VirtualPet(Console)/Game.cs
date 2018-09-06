@@ -31,6 +31,7 @@ namespace Jarmakowicz_VirtualPet_Console_
             Console.WriteLine("What kind of pet do you want?");
             Console.WriteLine("1) Dog");
             Console.WriteLine("2) Cat");
+            Console.WriteLine("3) Bird");
 
             int choice = Int32.Parse(Console.ReadLine());
 
