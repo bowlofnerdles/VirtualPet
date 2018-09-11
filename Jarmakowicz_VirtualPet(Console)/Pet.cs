@@ -21,6 +21,7 @@ namespace Jarmakowicz_VirtualPet_Console_
             return "Hello!";
         }
 
+        
         public void Sleep()
         {
             if (isAwake)

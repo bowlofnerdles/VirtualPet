@@ -18,8 +18,8 @@ namespace Jarmakowicz_VirtualPet_Console_
 
         private void Title()
         {
-            Console.WriteLine("Amazing Title");
-            Console.WriteLine("lets get started");
+            Console.WriteLine("Virtual Pet 1.0");
+            Console.WriteLine("Time to adopt your first pet!");
         }
 
         private void Menu()
@@ -43,7 +43,7 @@ namespace Jarmakowicz_VirtualPet_Console_
             {
                 player.pet = new Cat();
             }
-            Console.WriteLine("pet name?");
+            Console.WriteLine("What is your pet's name?");
             input = Console.ReadLine();
             player.pet.name = input;
 
@@ -52,6 +52,8 @@ namespace Jarmakowicz_VirtualPet_Console_
 
             Console.WriteLine(player.pet.name +" says " + player.pet.Talk());
             player.pet.Sleep();
+
+            Console.ReadLine();
         }
     }
 }

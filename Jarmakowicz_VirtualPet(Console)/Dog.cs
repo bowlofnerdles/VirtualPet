@@ -13,5 +13,7 @@ namespace Jarmakowicz_VirtualPet_Console_
         {
             return "Bark!";
         }
+
+        public 
     }
 }
